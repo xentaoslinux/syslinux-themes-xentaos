@@ -1,0 +1,33 @@
+Source: syslinux-themes-xentaos
+Section: misc
+Priority: optional
+Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.7
+Homepage: https://github.com/xentaos/syslinux-themes-xentaos
+Vcs-Browser: https://github.com/xentaos/syslinux-themes-xentaos.git
+
+Package: syslinux-themes-xentaos-cinnamon
+Architecture: all
+Depends: ${misc:Depends}, isolinux, memtest86+, syslinux-common
+Enhances: extlinux
+Provides: syslinux-theme
+Description: Paket Tema bootloader grafis Xenta OS Cinnamon.
+ SYSLINUX adalah kumpulan boot loader yang beroperasi dari Linux ext2 / 3/4 atau
+ filesystem btrfs, filesystem MS-DOS FAT, server jaringan yang menggunakan firmware PXE,
+ atau dari CD-ROM.
+ .
+ Tema bootloader grafis.
+
+Package: syslinux-themes-xentaos-xfce
+Architecture: all
+Depends: ${misc:Depends}, isolinux, memtest86+, syslinux-common
+Enhances: extlinux
+Provides: syslinux-theme
+Description: Paket Tema bootloader grafis Xenta OS Xfce.
+ SYSLINUX adalah kumpulan boot loader yang beroperasi dari Linux ext2 / 3/4 atau
+ filesystem btrfs, filesystem MS-DOS FAT, server jaringan yang menggunakan firmware PXE,
+ atau dari CD-ROM.
+ .
+ Tema bootloader grafis.
+

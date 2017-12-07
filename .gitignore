@@ -1,0 +1,12 @@
+# Berkas Paket
+build-stamp
+configure-stamp
+debian/*.log
+debian/*.substvars
+debian/files
+debian/debhelper-build-stamp
+
+# Directory Paket
+debian/syslinux-themes-xentaos-cinnamon
+debian/syslinux-themes-xentaos-xfce
+#gitpush

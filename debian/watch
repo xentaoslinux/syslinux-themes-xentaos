@@ -1,0 +1,3 @@
+version=4
+opts=filenamemangle=s/.+\/v?(\d\S+)\.tar\.gz/syslinux-themes-xentaos-$1\.tar\.gz/ \
+  https://github.com/xentaos/syslinux-themes-xentaos/tags .*/v?(\d\S+)\.tar\.gz

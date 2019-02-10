@@ -4,8 +4,8 @@ Priority: optional
 Maintainer: Dindin Hernawan (Xenta OS) <root@dev.xentaos.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.7
-Homepage: https://github.com/xentaos/syslinux-themes-xentaos
-Vcs-Browser: https://github.com/xentaos/syslinux-themes-xentaos.git
+Homepage: https://github.com/xentaoslinux/syslinux-themes-xentaos
+Vcs-Browser: https://github.com/xentaoslinux/syslinux-themes-xentaos.git
 
 Package: syslinux-themes-xentaos-cinnamon
 Architecture: all

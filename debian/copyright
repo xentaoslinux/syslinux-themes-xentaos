@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: syslinux-themes-xentaos
 Upstream-Contact: Dindin Hernawan <root@dev.xentaos.org>
-Source: https://github.com/xentaos/syslinux-themes-xentaos
+Source: https://github.com/xentaoslinux/syslinux-themes-xentaos
 
 Files: *
 Copyright: 2017, Dindin Hernawan
